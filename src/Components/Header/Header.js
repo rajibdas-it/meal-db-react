@@ -7,7 +7,10 @@ const Header = (props) => {
   return (
     <div className="navbar bg-slate-800 shadow-lg">
       <div className="flex-1">
-        <a href="/" className="btn btn-ghost normal-case text-xl md:ml-10">
+        <a
+          href="/"
+          className="btn btn-ghost normal-case text-xl bg-slate-600 md:ml-10"
+        >
           <img className="w-[100%] h-[100%]" src={logo} alt="" />
         </a>
       </div>
