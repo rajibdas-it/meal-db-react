@@ -14,7 +14,11 @@ const Meal = (props) => {
   } = meal;
 
   return (
-    <div className="card w-full bg-base-100 shadow-xl" data-aos="fade-up">
+    <div
+      className="card w-full bg-base-100 shadow-xl"
+      data-aos="zoom-out-up"
+      data-aos-duration="1000"
+    >
       <figure>
         <img src={strMealThumb} alt="Shoes" />
       </figure>
