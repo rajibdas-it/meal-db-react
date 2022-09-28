@@ -12,12 +12,10 @@ const Cart = (props) => {
     strMealThumb,
   } = item;
   return (
-    <div>
-      <tbody>
-        <tr>
-          <td>{strMeal}</td>-<td>{strCategory}</td>-<td>{strArea}</td>
-        </tr>
-      </tbody>
+    <div className="p-2 ml-2">
+      <p>
+        {index + 1 + ". "} {strMeal}
+      </p>
     </div>
   );
 };
